@@ -70,7 +70,7 @@
                                 <connections>
                                     <outlet property="completeButton" destination="ncu-08-Rj5" id="u6X-8F-jYQ"/>
                                     <outlet property="primaryLabel" destination="EaT-71-hm3" id="hRf-An-4lu"/>
-                                    <segue destination="sVs-IR-47w" kind="show" identifier="toDetailView" id="QLJ-GX-9iq"/>
+                                    <segue destination="sVs-IR-47w" kind="show" identifier="toEditDetail" id="QLJ-GX-9iq"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -118,7 +118,6 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="5u2-Mp-uNz" secondAttribute="bottom" constant="8" id="ETu-8q-2H0"/>
-                                                <constraint firstAttribute="trailing" secondItem="5u2-Mp-uNz" secondAttribute="trailing" constant="8" id="FDY-uf-RSr"/>
                                                 <constraint firstItem="5u2-Mp-uNz" firstAttribute="centerX" secondItem="NpA-aF-QH6" secondAttribute="centerX" id="LyR-GS-H4B"/>
                                                 <constraint firstItem="5u2-Mp-uNz" firstAttribute="top" secondItem="NpA-aF-QH6" secondAttribute="top" constant="8" id="Yai-Ii-UKY"/>
                                                 <constraint firstItem="5u2-Mp-uNz" firstAttribute="centerY" secondItem="NpA-aF-QH6" secondAttribute="centerY" id="ZcB-ga-MNT"/>
@@ -146,7 +145,6 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="QvY-1t-KBV" firstAttribute="centerX" secondItem="6Iw-uT-fgy" secondAttribute="centerX" id="40z-79-XYN"/>
-                                                <constraint firstItem="QvY-1t-KBV" firstAttribute="leading" secondItem="6Iw-uT-fgy" secondAttribute="leading" constant="8" id="8Mm-LD-cpg"/>
                                                 <constraint firstAttribute="trailing" secondItem="QvY-1t-KBV" secondAttribute="trailing" constant="8" id="QMI-Bj-DjL"/>
                                                 <constraint firstItem="QvY-1t-KBV" firstAttribute="centerY" secondItem="6Iw-uT-fgy" secondAttribute="centerY" id="SwB-Bs-A7U"/>
                                                 <constraint firstItem="QvY-1t-KBV" firstAttribute="top" secondItem="6Iw-uT-fgy" secondAttribute="top" constant="8" id="Yj5-6V-cxO"/>

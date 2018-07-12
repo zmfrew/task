@@ -62,7 +62,7 @@ class TaskDetailTableViewController: UITableViewController {
         title = task.name
         taskNameTF.text = task.name
         taskDueDateTF.text = (task.due as Date?)?.stringValue() 
-            taskNotesTV.text = task.notes
+        taskNotesTV.text = task.notes
     }
     
 }
